@@ -1,0 +1,24 @@
+{
+  "rates": [
+    {
+      "currency": "USD",
+      "buy": 72.21,
+      "sell": 74.5
+    },
+    {
+      "currency": "EUR",
+      "buy": 81.19,
+      "sell": 87.22
+    },
+    {
+      "currency": "GBP",
+      "buy": 101.2,
+      "sell": 103.3
+    },
+    {
+      "currency": "CHF",
+      "buy": 104.65,
+      "sell": 108.35
+    }
+  ]
+}
