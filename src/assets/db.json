@@ -1,24 +1,186 @@
 {
   "rates": [
     {
+      "idFrom": 1,
+      "idTo": 2,
       "currency": "USD",
       "buy": 72.21,
-      "sell": 74.5
+      "sell": 74.5,
+      "icon": "$",
+      "label": "Доллар"
     },
     {
+      "idFrom": 3,
+      "idTo": 4,
       "currency": "EUR",
       "buy": 81.19,
-      "sell": 87.22
+      "sell": 87.22,
+      "icon": "€",
+      "label": "Евро"
     },
     {
+      "idFrom": 5,
+      "idTo": 6,
       "currency": "GBP",
       "buy": 101.2,
-      "sell": 103.3
+      "sell": 103.3,
+      "icon": "£",
+      "label": "Английский фунт"
     },
     {
+      "idFrom": 7,
+      "idTo": 8,
       "currency": "CHF",
       "buy": 104.65,
-      "sell": 108.35
+      "sell": 108.35,
+      "icon": "₣",
+      "label": "Швейцарский франк"
+    }
+  ],
+  "transactions": [
+    {
+      "timeOperation": "28.09.2021 12:09:19",
+      "rateSellFrom": 74.5,
+      "rateSellTo": 87.22,
+      "currencyFrom": "USD",
+      "currencyTo": "EUR",
+      "iconFrom": "$",
+      "iconTo": "€",
+      "value": "2500",
+      "result": "2135.40",
+      "id": 1
+    },
+    {
+      "timeOperation": "28.09.2021 14:03:25",
+      "rateSellFrom": 74.5,
+      "rateSellTo": 87.22,
+      "currencyFrom": "USD",
+      "currencyTo": "EUR",
+      "iconFrom": "$",
+      "iconTo": "€",
+      "value": "100",
+      "result": "85.42",
+      "id": 2
+    },
+    {
+      "timeOperation": "28.09.2021 14:08:10",
+      "rateSellFrom": 74.5,
+      "rateSellTo": 87.22,
+      "currencyFrom": "USD",
+      "currencyTo": "EUR",
+      "iconFrom": "$",
+      "iconTo": "€",
+      "value": "234",
+      "result": "199.87",
+      "id": 3
+    },
+    {
+      "timeOperation": "29.09.2021 17:17:41",
+      "rateSellFrom": 87.22,
+      "rateSellTo": 108.35,
+      "currencyFrom": "EUR",
+      "currencyTo": "CHF",
+      "iconFrom": "€",
+      "iconTo": "₣",
+      "value": "456",
+      "result": "367.07",
+      "id": 4
+    },
+    {
+      "timeOperation": "29.09.2021 17:17:47",
+      "rateSellFrom": 103.3,
+      "rateSellTo": 87.22,
+      "currencyFrom": "GBP",
+      "currencyTo": "EUR",
+      "iconFrom": "£",
+      "iconTo": "€",
+      "value": "4569",
+      "result": "5411.35",
+      "id": 5
+    },
+    {
+      "timeOperation": "29.09.2021 17:17:53",
+      "rateSellFrom": 108.35,
+      "rateSellTo": 103.3,
+      "currencyFrom": "CHF",
+      "currencyTo": "GBP",
+      "iconFrom": "₣",
+      "iconTo": "£",
+      "value": "5699",
+      "result": "5977.61",
+      "id": 6
+    },
+    {
+      "timeOperation": "28.09.2021 12:09:19",
+      "rateSellFrom": 74.5,
+      "rateSellTo": 87.22,
+      "currencyFrom": "USD",
+      "currencyTo": "EUR",
+      "iconFrom": "$",
+      "iconTo": "€",
+      "value": "2500",
+      "result": "2135.40",
+      "id": 7
+    },
+    {
+      "timeOperation": "28.09.2021 14:03:25",
+      "rateSellFrom": 74.5,
+      "rateSellTo": 87.22,
+      "currencyFrom": "USD",
+      "currencyTo": "EUR",
+      "iconFrom": "$",
+      "iconTo": "€",
+      "value": "100",
+      "result": "85.42",
+      "id": 8
+    },
+    {
+      "timeOperation": "28.09.2021 14:08:10",
+      "rateSellFrom": 74.5,
+      "rateSellTo": 87.22,
+      "currencyFrom": "USD",
+      "currencyTo": "EUR",
+      "iconFrom": "$",
+      "iconTo": "€",
+      "value": "234",
+      "result": "199.87",
+      "id": 9
+    },
+    {
+      "timeOperation": "29.09.2021 17:17:41",
+      "rateSellFrom": 87.22,
+      "rateSellTo": 108.35,
+      "currencyFrom": "EUR",
+      "currencyTo": "CHF",
+      "iconFrom": "€",
+      "iconTo": "₣",
+      "value": "456",
+      "result": "367.07",
+      "id": 10
+    },
+    {
+      "timeOperation": "29.09.2021 17:17:47",
+      "rateSellFrom": 103.3,
+      "rateSellTo": 87.22,
+      "currencyFrom": "GBP",
+      "currencyTo": "EUR",
+      "iconFrom": "£",
+      "iconTo": "€",
+      "value": "4569",
+      "result": "5411.35",
+      "id": 11
+    },
+    {
+      "timeOperation": "29.09.2021 17:17:53",
+      "rateSellFrom": 108.35,
+      "rateSellTo": 103.3,
+      "currencyFrom": "CHF",
+      "currencyTo": "GBP",
+      "iconFrom": "₣",
+      "iconTo": "£",
+      "value": "5699",
+      "result": "5977.61",
+      "id": 12
     }
   ]
 }

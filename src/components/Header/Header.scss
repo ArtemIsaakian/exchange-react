@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  background-color: #1976d2;
+  border-radius: 0 0 10px 10px;
+  justify-content: space-between;
+  line-height: 30px;
+  padding: 20px;
+
+  .logo {
+    font-size: 30px;
+    font-weight: 500;
+    a {
+      color: #fff;
+    }
+  }
+
+  .nav {
+    ul {
+      display: flex;
+      list-style: none;
+      li {
+        margin-left: 50px;
+        font-size: 18px;
+      }
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+}

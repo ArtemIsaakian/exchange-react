@@ -1,0 +1,39 @@
+.calculate {
+  h2 {
+    text-align: center;
+    margin: 30px 0;
+    font-weight: 500;
+  }
+
+  .calculator {
+    display: flex;
+    text-align: center;
+
+    .left,
+    .right {
+      flex: 1;
+
+      .calc-switcher {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+
+        .calc-switcher-item {
+          // border: 1px solid grey;
+
+          .active {
+            background-color: #1976d2;
+            color: #fff;
+          }
+        }
+      }
+
+      .inputBox {
+        input {
+          width: 280px;
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
